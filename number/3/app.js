@@ -3,4 +3,4 @@
 
 const a = +prompt('Введите число');
 const b = +prompt('Введите число');
-console.log('S=' 1/2 * a * b);
+console.log('S=', 1/2 * a * b);
