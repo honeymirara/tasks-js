@@ -10,6 +10,8 @@ if (age >= 0 && age <= 18) {
     console.log('молодость');
 } else if (age >= 41 && age <= 100) {
     console.log('зрелость');
-} else if (age < 0 ) {
+} else if (age < 0) {
+    console.log('некорректный ввод');
+} else if (age > 100) {
     console.log('некорректный ввод');
 }
